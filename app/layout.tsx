@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+// 此处仅作简单的导入
+import "./test.vue"
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
